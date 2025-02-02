@@ -1,0 +1,111 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+body {
+    display: table;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.card-text-price {
+    font-weight: bold;
+    color: #7b7b7b;
+}
+
+#discount-button {
+    color: #fff;
+    border: 0;
+    padding: 10px 10px;
+    position: center;
+}
+
+nav {
+    .navbar-brand {
+        margin-left: 10px;
+    }
+       
+}
+.nav-item {
+    a:hover {
+        color: rgb(132, 132, 216);
+    }
+}
+
+
+
+#Menu {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    padding: 10px;
+}
+
+#sectMenu {
+    background-color: grey;
+}
+
+
+.about-text {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+.form-contact {
+    border: 1px solid #ccc;
+    border-radius : 4px;
+    padding: 8px 16px;
+    background-color: #E7E9EB;
+}
+
+#welcome-section{
+
+    background-image: url("restaurant.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text-welcome {
+  color: #fff;
+  font-size: 5rem;    
+}
+
+.description-restau {
+    font-size: 2rem;
+    color: #fff;
+    font-style: italic;
+    padding: 3%;
+}
+
+.img-about {
+    background-image: url("imgLi.jpg");
+    background-size: cover;
+}
+#img-conctact {
+    background-image: url("imgLi.jpg");
+    background-size: cover;
+}
+
+footer{
+    display: table-row;
+    height: 100px;
+}
+
